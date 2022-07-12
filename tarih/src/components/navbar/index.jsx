@@ -8,6 +8,7 @@ export const Navbar = () => {
             alt="Egyptian fonts"
           />
         </a>
+        <p>Made with passion from Adil and Alikhan</p>
       </div>
     </div>
   );

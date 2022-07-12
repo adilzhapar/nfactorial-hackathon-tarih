@@ -6,8 +6,11 @@
     align-items: center;
 
     &-title {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         padding: 50px;
         color: #121212;
-        font-size: 64px;
+        font-size: 32px;
     }
 }
