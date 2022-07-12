@@ -1,7 +1,7 @@
 import events from "../../../data/left.json";
 
 export const Right = () => {
-  events.map((item) => console.log(item.img));
+  // events.map((item) => console.log(item.img));
 
   return (
     <div className="right">

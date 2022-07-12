@@ -10,3 +10,22 @@
         display: flex;
     }
 }
+
+.line {
+    position: fixed;
+    opacity: 1;
+    font-size: 40px;
+    // font-family: 'Source Code Pro', monospace;
+    top: 80%;
+    // left: 44%;
+    padding-left: 44%;
+    color: white;
+    border-bottom: 0.5px dashed gray;
+    width: 100%;
+
+
+}
+
+.not-line {
+    display: none;
+}
