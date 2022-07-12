@@ -1,15 +1,14 @@
 .navbar {
-    height: 500px;
-    padding: 10px;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 
     &-title {
-        padding: 10px;
+        padding: 50px;
+        // color: rgb(166, 171, 184);
         color: white;
-        font-size: xx-large;
-        border: solid 1px;
+        font-size: 64px;
     }
 }

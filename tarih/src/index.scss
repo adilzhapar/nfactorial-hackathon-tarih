@@ -4,9 +4,11 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Source Code Pro', monospace;
 }
 
 body {
     overflow-x: hidden;
-    background: linear-gradient(rgb(69, 69, 249), rgb(80, 21, 21));
+    // background: linear-gradient(rgb(69, 69, 249), rgb(235, 166, 15));
+    background: rgb(72, 56, 56);
 }

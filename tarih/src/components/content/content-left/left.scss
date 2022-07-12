@@ -2,15 +2,31 @@
     width: 50%;
 
     &-item {
-        padding-right: 5px;
+        height: 60vh;
+        margin-right: 5px;
         margin-bottom: 5px;
+        border: solid 1px;
+        display: flex;
+        flex-direction: row;
+
+        &-text {
+            color: rgb(166, 171, 184);
+            ul {
+                height: 100%;
+            }
+            li {
+                height: 20%;
+            }
+
+            font-size: x-large;
+            width: 50%;
+        }
         
         &-img {
-            border: solid 1px;
-            height: 60vh;
+            width: 50%;
         
             img {
-                width: 50%;
+                width: 100%;
             }
         }
     }

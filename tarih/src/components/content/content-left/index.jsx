@@ -7,6 +7,15 @@ export const Left = () => {
     <div className="left">
       {events.map((item) => (
         <div className="left-item">
+          <div className="left-item-text">
+            <ul>
+              <li>Test</li>
+              <li>Test</li>
+              <li>Test</li>
+              <li>Test</li>
+              <li>Test</li>
+            </ul>
+          </div>
           <div className="left-item-img">
             <img key={item.key} src={item.img} alt="item" />
           </div>
