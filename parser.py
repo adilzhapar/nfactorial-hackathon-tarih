@@ -3,7 +3,7 @@ import json
 
 arr = []
 #read csv
-with open('world.csv') as f:
+with open('kaz.csv') as f:
     reader = csv.reader(f, delimiter=',')
     
     # for row in reader:
@@ -25,7 +25,7 @@ with open('world.csv') as f:
             }
         )
 
-with open('world.json', 'w') as f:
+with open('kaz.json', 'w') as f:
     f.write('[\n')
     for i in range(len(arr)):
         f.write(json.dumps(arr[i], indent=4))
