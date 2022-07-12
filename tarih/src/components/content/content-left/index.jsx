@@ -1,17 +1,17 @@
 import events from "../../../data/left.json";
 
-
 export const Left = () => {
-  events.map((item) => (
-    console.log(item.img)
-  ))
-  
-  return <div>
-    {
-      events.map((item) => (
-        <img key={item.key} src={item.img} alt="item" />
-      ))
+  events.map((item) => console.log(item.img));
 
-    }
-  </div>;
+  return (
+    <div className="left">
+      {events.map((item) => (
+        <div className="left-item">
+          <div className="left-item-img">
+            <img key={item.key} src={item.img} alt="item" />
+          </div>
+        </div>
+      ))}
+    </div>
+  );
 };

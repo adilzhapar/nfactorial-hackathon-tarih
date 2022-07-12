@@ -1,0 +1,15 @@
+.navbar {
+    height: 500px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &-title {
+        padding: 10px;
+        color: white;
+        font-size: xx-large;
+        border: solid 1px;
+    }
+}

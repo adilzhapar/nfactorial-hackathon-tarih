@@ -1,0 +1,18 @@
+.left {
+    width: 50%;
+
+    &-item {
+        padding-right: 5px;
+        margin-bottom: 5px;
+        
+        &-img {
+            border: solid 1px;
+            height: 60vh;
+        
+            img {
+                width: 50%;
+            }
+        }
+    }
+
+}
