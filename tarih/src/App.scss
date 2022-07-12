@@ -1,0 +1,12 @@
+@import "./components/navbar/navbar.scss";
+@import "./components//content/content-left/left.scss";
+@import "./components//content/content-right/right.scss";
+
+.main {
+    display: flex;
+    flex-direction: column;
+
+    &-content {
+        display: flex;
+    }
+}
