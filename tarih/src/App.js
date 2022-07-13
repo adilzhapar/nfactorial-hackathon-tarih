@@ -33,13 +33,23 @@ const App = () => {
     }
   });
 
+  useEffect(() => {
+    if(year >= 1850){
+      document.body.style.backgroundImage = 'url(https://upload.wikimedia.org/wikipedia/commons/8/86/The_New-York_Daily_Times_first_issue.jpg)';
+      // document.getElementById("event").style.color = "blue";
+    }
+    if(year <= 1850){
+      document.body.style.backgroundImage = 'url(https://img.freepik.com/premium-photo/old-paper-texture-vintage-paper-background_262663-434.jpg?w=2000)';
+    }
+  }, [year])
+
   return (
     <div className="main">
       <Navbar />
       <div className={isLine ? "line" : "not-line"}>{year} year</div>
       <div className="main-content">
-        <Left />
-        <Right />
+        <Left year={year}/>
+        <Right year={year} />
       </div>
     </div>
   );

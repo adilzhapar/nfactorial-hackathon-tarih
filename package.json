@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/adilzhapar/nfactorial-hackathon-tarih/issues"
   },
-  "homepage": "https://github.com/adilzhapar/nfactorial-hackathon-tarih#readme"
+  "homepage": "https://github.com/adilzhapar/nfactorial-hackathon-tarih#readme",
+  "dependencies": {
+    "react-redux": "^8.0.2"
+  }
 }
