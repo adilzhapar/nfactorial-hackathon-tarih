@@ -24,7 +24,13 @@
 }
 
 .not-line {
-    display: none;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.55s opacity, 0.55s visibility;
+}
+.line:hover~.not-line{
+    opacity: 1;
+    visibility: visible;
 }
 
 @media screen and (max-width: 462px) {

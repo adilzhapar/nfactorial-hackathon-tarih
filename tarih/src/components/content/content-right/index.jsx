@@ -24,19 +24,19 @@ export const Right = ({ year }) => {
           </div>
           <div className="right-item-text">
             <div className={paper ? "right-item-event paper" : "right-item-events"}>
-              <h1>События:</h1>
+              <h2>События:</h2>
               {item.events.map((event) => (
                 <li>{event}</li>
               ))}
             </div>
             <div className={paper ? "right-item-event paper" : "right-item-events"}>
-              <h1>Инновации:</h1>
+              <h2>Инновации:</h2>
               {item.innovations.map((inv) => (
                 <li>{inv}</li>
               ))}
             </div>
             <div className={paper ? "right-item-event paper" : "right-item-events"}>
-              <h1>Известные люди:</h1>
+              <h2>Известные люди:</h2>
               {item.famous.map((fms) => (
                 <li>{fms}</li>
               ))}
