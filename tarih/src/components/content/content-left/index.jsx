@@ -5,10 +5,10 @@ export const Left = ({ year }) => {
   const [paper, setPaper] = useState(false);
 
   useEffect(() => {
-    if (year >= 1850) {
+    if (year >= 1900) {
       setPaper(true);
     }
-    if (year <= 1850) {
+    if (year <= 1900) {
       setPaper(false);
     }
   });

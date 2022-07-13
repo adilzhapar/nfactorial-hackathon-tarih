@@ -34,11 +34,12 @@ const App = () => {
   });
 
   useEffect(() => {
-    if(year >= 1850){
-      document.body.style.backgroundImage = 'url(https://upload.wikimedia.org/wikipedia/commons/8/86/The_New-York_Daily_Times_first_issue.jpg)';
-      // document.getElementById("event").style.color = "blue";
+    if(year >= 1900){
+      // document.body.style.backgroundImage = 'url(https://upload.wikimedia.org/wikipedia/commons/8/86/The_New-York_Daily_Times_first_issue.jpg)';
+      
+      document.body.style.background = 'linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(https://upload.wikimedia.org/wikipedia/commons/8/86/The_New-York_Daily_Times_first_issue.jpg)';
     }
-    if(year <= 1850){
+    if(year <= 1900){
       document.body.style.backgroundImage = 'url(https://img.freepik.com/premium-photo/old-paper-texture-vintage-paper-background_262663-434.jpg?w=2000)';
     }
   }, [year])
