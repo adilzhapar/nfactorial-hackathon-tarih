@@ -3,6 +3,8 @@ import { Left } from "./components/content/content-left";
 import { Right } from "./components/content/content-right";
 import { useState, useEffect } from "react";
 
+import end from "./assets/tobecontinued.webp";
+
 const App = () => {
   const [year, setYear] = useState(1445);
   const [isLine, setIsLine] = useState(false);
@@ -51,6 +53,9 @@ const App = () => {
       <div className="main-content">
         <Left year={year}/>
         <Right year={year} />
+      </div>
+      <div className="end">
+        <img src={end} alt="my-end"></img>
       </div>
     </div>
   );
