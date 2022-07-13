@@ -26,3 +26,11 @@
 .not-line {
     display: none;
 }
+
+@media screen and (max-width: 462px) {
+    .line {
+        top: 90%;
+        padding-left: 28%;
+        font-size: 30px;
+    }
+}

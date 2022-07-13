@@ -14,3 +14,21 @@
         font-size: 32px;
     }
 }
+
+@media screen and (max-width: 462px) {
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        &-title {
+            padding: 25px;
+            font-size: 10px;
+        }
+
+        img {
+            width: 250px;
+        }
+    }
+}
